@@ -17,6 +17,7 @@ This Go program generates a report based on actions and cards data from a JSON f
 
 1. Ensure you have a JSON file with the Trello Board data in the same directory as the Go program.
 2. Change the constants `JSONPath` and `DoneColumnID` in `main.go` to the path of the JSON file and the ID of the "Done" column, respectively.
+    - The `DoneColumnID` can be found by inspecting the JSON file and finding the ID of the "Done" column.
 3. Run the Go program:
   
   ```bash
