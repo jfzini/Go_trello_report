@@ -70,9 +70,23 @@ The JSON file should be structured as follows:
 The generated report will be formatted as follows:
 
 ```
-Label Name:
-    - Card Name
-        - Task Name
+Label1 Name:
+    - Card1 Name
+        - Task1.1 Name
+        - Task1.2 Name
+        - Task1.3 Name
+        - Task1.4 Name
+    - Card2 Name
+        - Task2.1 Name
+        - Task2.2 Name
+        - Task2.3 Name
+
+Label2 Name:
+    - Card3 Name
+        - Task3.1 Name
+        - Task3.2 Name
+        - Task3.3 Name
+        - Task3.4 Name
 ```
 
 ## Contributing
